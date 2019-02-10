@@ -1,0 +1,93 @@
+/*limpar formatações padrões*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size:1.1em;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color:#f3f3f3;
+}
+#navegacao{
+	background:#fff;
+	border-bottom:1px solid #d8d8d8;
+	height: 3em;
+	position: fixed;
+	width: 100vw;
+	height: 45px;
+	top:0;
+}
+#area{
+	width:720px;
+	margin:0 auto;
+}
+#area-principal{
+	width:720px;
+	margin:55px auto 10px auto;
+}
+
+#logo{
+	float:left;
+}
+#menu{
+	float:right;
+	padding:10px 0 ;
+}
+#postagem{
+	background:#fff;
+	padding:10px;
+	margin-bottom:10px;
+}
+.data-postagem{
+	font-size:1em;
+	border-bottom:1px solid #f4f4f5;
+	display:block;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.img-postagem{
+	float:left;
+	margin:0 10px 5px 0;
+}
+.postado{
+	border-left: 5px solid #d8d8d8;
+	padding-left:5px;
+	display:block;
+	margin-top: 10px;
+}
+h2{
+	color:#b9c941;
+}
+p{
+	text-align: justify;
+}
+a{
+	text-decoration:none;
+	padding:5px 10px;
+}
+a:link{
+	color:#838383;
+}
+/*formatacao do menu*/
+/*links nao visitados*/
+/*links hover*/
+/*links active*/
+a:visited{
+	color:#838383;
+}
+
+a:hover{
+	background:#b9c941;
+}
+
+a:active{
+	color:#f0f;
+}
+
+/*classes*/
+
+.verde{
+	color:#b9c941;
+}
